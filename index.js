@@ -4,5 +4,6 @@ var app = express()
 app.get('/', function(req, res) {
 	res.send('Hello Torbjørn Slørdal')
 })
-
-app.listen(1337)
+var port = (process.env.PORT || 3000);
+console.log("App started on port "+port);
+app.listen(port);
