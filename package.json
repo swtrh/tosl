@@ -2,11 +2,14 @@
   "name": "helloworld",
   "version": "1.0.0",
   "description": "A node js test application",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "Torbjorn Slordal",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
